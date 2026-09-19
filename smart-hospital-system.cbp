@@ -30,8 +30,10 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="include" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="include/hospital.h" />
+		<Unit filename="src/lookup.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions />
