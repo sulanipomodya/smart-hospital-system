@@ -35,6 +35,7 @@ extern int    patientWardID[MAX_PATIENTS];       /* 1-4, 0 if not admitted */
 extern int    patientBedIndex[MAX_PATIENTS];     /* 0-based bed slot, -1 if not admitted */
 extern int    patientDaysAdmitted[MAX_PATIENTS];
 extern double patientFinalBill[MAX_PATIENTS];
+extern double patientDiscount[MAX_PATIENTS];  /* discount amount granted to this patient */
 extern int    patientCount;
 
 void registerPatient(void);

@@ -12,6 +12,7 @@ int    patientWardID[MAX_PATIENTS];
 int    patientBedIndex[MAX_PATIENTS];
 int    patientDaysAdmitted[MAX_PATIENTS];
 double patientFinalBill[MAX_PATIENTS];
+double patientDiscount[MAX_PATIENTS];
 int    patientCount = 0;
 
 /* Clears leftover characters in the input buffer after a scanf().
