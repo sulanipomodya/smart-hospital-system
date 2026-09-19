@@ -1,2 +1,3 @@
 PAT-1001 | N.P Perera | Age 64 | Urgency 2 | Specialty Neurology | Final Bill LKR 6000.00
 PAT-1001 | N.P Perera | Age 65 | Urgency 3 | Specialty Neurology | Final Bill LKR 67500.00
+PAT-1001 | S.G Gunasekara | Age 5 | Urgency 2 | Specialty General Practice (OPD) | Final Bill LKR 1800.00
