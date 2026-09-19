@@ -96,7 +96,7 @@ void printBill(int i, double waitTime, double surcharge, double wardCost,
     printf("----------------------------------------------------------------------------------------\n");
 
     formatCurrency(finalPayable, buf);
-    printf("Final Payable Amount     : LKR %s\n", buf);
+    printf("Final Payable Amount     : LKR %s\n", buf); /* Shows the final amount which has to pay */
 
     if (patientUrgency[i] == 3) {
         printf("Estimated Waiting Time   : 0.00 mins (Immediate Attention)\n");
